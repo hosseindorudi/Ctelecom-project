@@ -1,0 +1,99 @@
+.time{
+    display:flex;
+    justify-content: center;
+    color: white;
+
+}
+.hrSideNavbar{
+    color: white;
+}
+
+#sidebarNav{
+    background: #15171c;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 350ms;
+    z-index: 10;
+    overflow-x: auto;
+   
+}
+.sidebarNavRTL{
+right: 0;
+left: unset;
+}
+.sidebarNavLTR{
+    right: unset;
+    left: 0;   
+}
+.sidebarWrapper{
+    width: 100%;
+    /* overflow-x: auto; */
+}
+.SidebarLink {
+    background-color: #15171c;
+    border: none;
+  display: flex;
+  color: #e1e9fc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+  height: 60px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 100%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.SidebarLink:active {
+    background-color: #3a3b3a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.SidebarLink:hover {
+  
+    border-left: 4px solid #632ce4;
+    cursor: pointer;
+  }
+  .SidebarLabel{
+  margin-left: 16px;
+  margin-right:0.5rem;
+  }
+
+.DropdownLink {
+  background: #15171c;
+  height: 60px;
+  border: none;
+  width: 100%;
+  
+  padding: 20px 30px ;
+  /* text-align: start; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  
+}
+.DropdownLink:active {
+    background-color: #3a3b3a;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+  }
+.DropdownLink:hover {
+    border-left: 4px solid #632ce4;
+    cursor: pointer;
+  }
+  .searchSidebar{
+      margin-inline: 0.5rem;
+  }
+  .searchSidebar input:first-of-type ,.searchSidebar span:first-of-type{
+      background-color: transparent;
+      color: white;
+      
+  }
